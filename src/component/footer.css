@@ -1,0 +1,82 @@
+.footer{
+  background-image: linear-gradient(
+    45deg,
+    hsl(46deg 98% 77%) 0%,
+    hsl(44deg 98% 77%) 11%,
+    hsl(43deg 98% 76%) 22%,
+    hsl(41deg 98% 76%) 33%,
+    hsl(39deg 98% 76%) 44%,
+    hsl(38deg 97% 76%) 56%,
+    hsl(36deg 96% 75%) 67%,
+    hsl(35deg 95% 75%) 78%,
+    hsl(34deg 94% 75%) 89%,
+    hsl(32deg 92% 75%) 100%
+  );
+
+  width: 100%;
+  height:auto;
+   overflow: hidden;
+  }
+  .row-footer{
+    padding: 20px 70px ;
+  }
+  .col-logo{
+    margin-left: 7rem;
+  }
+  .logo-footer{
+    width: 70px;
+    height: 70px;
+  }
+  .h-footer{
+    color: #ff6900;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  
+  .btn-footer{
+    background-color: #fe6e31;
+    color: #f0efef;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  }
+  .btn-footer:hover{
+    background-color: #ff6900;
+  }
+  .icon-footer{
+    text-align: center;
+   
+  }
+  .icon-footer-twitter{
+    text-align: center;
+   padding: 30px 10px;
+   font-size: 30px;
+   color:blue;
+  }
+  .icon-footer-twitter:hover{
+    color:darkblue;
+  }
+  .icon-footer-linkedin{
+    text-align: center;
+   padding: 30px 10px;
+   font-size: 30px;
+   color:rgb(13, 13, 14);
+  }
+  .icon-footer-linkedin:hover{
+    color: lightblue;
+  }
+  .icon-footer-google{
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 30px;
+    color:rgb(193, 25, 25);
+  }
+  .icon-footer-google:hover{
+    color: black;
+  }
+  .h-copy{
+    padding: 0 50px;
+    font-size: 20px ;
+    font-weight: 700;
+  }
+ 

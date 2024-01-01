@@ -1,0 +1,99 @@
+.title-slide {
+  color: black !important;
+  font-size: 40px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  direction: rtl;
+}
+h2 {
+  margin: 1rem auto 1rem !important;
+  font-size: 1.5rem !important;
+  color: black !important;
+  padding: 1rem 0 !important;
+}
+.product--image {
+  width: 120px;
+  height: 120px;
+  padding: 1;
+  padding: 10px;
+}
+.product--image:hover{
+  width: 130px;
+  height: 130px;
+  padding: 5px;
+  opacity: 1;
+  cursor: pointer;
+}
+.card{
+  border: none !important;
+  width: 24rem !important;
+  height: auto !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+  max-width: 350px !important;
+  margin: 3rem 1rem !important;
+  text-align: center !important;
+  font-family: arial !important;
+  /* background: linear-gradient(155.58deg,#ffef63 15.61%,#fe6e31 155.12%) !important; */
+  border-radius: 20px !important;
+  opacity: .8 !important;
+  box-shadow: 0 5px 9px rgba(0,0,0,.08) !important;
+  transition: opacity .5s !important;
+  background-image: linear-gradient(
+    45deg,
+    hsl(18deg 99% 66%) 0%,
+    hsl(23deg 100% 66%) 11%,
+    hsl(27deg 100% 66%) 22%,
+    hsl(31deg 100% 66%) 33%,
+    hsl(35deg 100% 60%) 44%,
+    hsl(39deg 100% 61%) 56%,
+    hsl(42deg 100% 63%) 67%,
+    hsl(46deg 100% 65%) 78%,
+    hsl(50deg 100% 67%) 89%,
+    hsl(54deg 100% 69%) 100%
+  );
+
+}
+
+article {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  min-height: 22vw !important;
+  box-shadow: 0 0 1.4em #e2e2e2 !important;
+  text-align: right;
+  border-radius: 1em;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 5px 9px rgba(0,0,0,.08);
+  border-radius: 28px;
+  transition: opacity .5s;
+ 
+}
+article .content {
+  text-align: left !important;
+  color: #313131 !important;
+  background: #efebeb !important;
+  width: 98% !important;
+  margin: 1% auto !important;
+  border-radius: 0 0 25px 25px !important;
+  position: relative !important;
+  font-size: 1.3em !important;
+  padding: 1em 1em 1.4em !important;
+  min-height: 7vw !important;
+  height: 28vh !important;
+
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  direction: rtl;
+  text-align: justify;
+  font-size: 18px;
+}

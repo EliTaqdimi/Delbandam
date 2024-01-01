@@ -1,0 +1,25 @@
+.btn-form{
+  background-color:#ff6900 !important;
+  font-size: 20px !important;
+  padding: 10px 30px !important;
+  border: 1px solid #ff6900 !important;
+}
+.label{
+  font-size: 20px !important;
+  font-weight: 700 !important;
+ 
+}
+.form-group{
+  width: 50% !important;
+}
+.form-group-subject{
+  width: 70% !important;
+}
+@media screen and (max-width:650px) {
+  .form-group{
+    width: 100% !important;
+  }
+  .form-group-subject{
+    width: 100% !important;
+  }
+}
