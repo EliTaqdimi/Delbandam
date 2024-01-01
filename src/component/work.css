@@ -55,15 +55,13 @@ opacity: 0.6 !important;
 
 .container-image-mobile .btn {
   position: absolute;
-  top: 305%;
+  top: 326%;
   left:26.5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
  /* background-color: #fe6e31; */
   color: rgb(255, 255, 255);
-  font-size: 18px;
-
-  border: none;
+   border: none;
   cursor: pointer;
   border-radius: 50px;
   text-align: center;
