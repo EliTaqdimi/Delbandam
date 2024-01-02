@@ -9,7 +9,9 @@ import Product from '../component/products';
 import Work from '../component/work';
 import Form from '../component/form';
 import Footer from '../component/footer';
-import Slider from '../component/slider';
+import Slide from '../component/slider';
+import {slidetData ,respons} from '../component/dataslider';
+
 // import Header from '../component/header'
 
 
@@ -21,8 +23,15 @@ function Home() {
       <Product
          name={item.name}
          url={item.imageurl}
-          description={item.description}
+        description={item.description}
         />
+));
+const slide= slidetData.map((item)=> (
+  <Slide
+     name={item.name}
+     url={item.imageurl}
+    description={item.description}
+    />
 ));
 
   return (
@@ -46,8 +55,16 @@ function Home() {
   <Work/>
   </section>
 
- <section>
-    <Slider/>
+ <section className='stats'>
+ <div className='title-slide'>
+ <h3>Our hardwares</h3>
+ </div>
+ <Carousel
+      responsive ={respons} 
+      swipeable={false}
+      showDots={true}  dotListClass="custom-dot-list-style" >
+      {slide}
+      </Carousel>
  </section>
  
   <section style={{background:'#f2f2f2'}}><br/>
